@@ -16,7 +16,7 @@ import java.util.Map.Entry;
 
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
+*/
 
 /**
  * 
@@ -46,7 +46,7 @@ public class LinkedHashMapSample {
 		linkedhashMap.put(25 , "Years");
 		
 			// Size of the LinkedHashMap.
-			System.out.println("\nThe size of the our LinkedHashMap is: "+linkedhashMap.size());
+		System.out.println("\nThe size of the our LinkedHashMap is: "+linkedhashMap.size());
 
 			// Iterating using for-each.
 		System.out.println("\nIteration using for.");
@@ -72,6 +72,6 @@ public class LinkedHashMapSample {
 			// See if our LinkedHashMap was cleared.
 		System.out.println("\nIs our LinkedHashMap empty?: "+linkedhashMap.isEmpty());
 		
-		// The only special characteristic of LinkedHashMap is that it guarantees that the order will be maintained. 
+	// The only special characteristic of LinkedHashMap is that it guarantees that the order will be maintained. 
 	}	
 }
