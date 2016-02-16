@@ -26,6 +26,10 @@ public class HashMapSample {
 	 * Some properties of HashMap:
 	 * - Is an implementation of the Map interface.
 	 * - Stores data in for of key and value pair.
+	 * - Does not allow duplicated keys.
+         * - Allows only one null key.
+         * - Allows null values.
+         * - Unsorted and unordered.
 	 */
 	public static void main(String[] args) {
 		Map<Integer,String> hashMap = new HashMap();
