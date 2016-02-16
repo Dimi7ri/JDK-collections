@@ -29,9 +29,9 @@ public class LinkedHashMapSample {
 	 * - Is a HashTable and LinkedList implementation of the Map interface.
 	 * - Stores data in for of key and value pair.
 	 * - Does not allow duplicated keys.
-     * - Allows only one null key.
-     * - Allows null values.
-     * - Respects the order of how the elements where put.
+     	 * - Allows only one null key.
+       	 * - Allows null values.
+     	 * - Respects the order of how the elements where put.
 	 */
 	public static void main(String[] args) {
 		Map<Integer, String> linkedhashMap = new LinkedHashMap();
