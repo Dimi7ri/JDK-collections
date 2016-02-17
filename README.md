@@ -15,3 +15,7 @@ Impelementation explaining .put() .get() .getKey() .getValue() .removeIf() .clea
 
 <br />LinkedHashMap -- <br />
 Impelementation explaining .put() .getKey() .getValue() .removeIf() .clear() .size() and Iteration using Iterator and foreach. 
+
+<br />Hashtable -- <br />
+Impelementation explaining .put() .get() .getKey() .getValue() .clone() .clear() .size() and Iteration using Iterator and foreach, Enumeration to display keys .keys() method. 
+
