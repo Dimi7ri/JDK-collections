@@ -1,5 +1,5 @@
 # JDK-collections
-This repository covers some of the most used collections of the JDK.
+This repository covers some of the most used collections of the JDK and their features.
 
 <br />ArrayList -- <br />
 Impelementation explaining .add() .get() .remove() .clear() .size() .next() and Iteration using Iterator foreach and for.
@@ -19,3 +19,5 @@ Impelementation explaining .put() .getKey() .getValue() .removeIf() .clear() .si
 <br />Hashtable -- <br />
 Impelementation explaining .put() .get() .getKey() .getValue() .clone() .clear() .size() and Iteration using Iterator and foreach, Enumeration to display keys .keys() method. 
 
+<br />TreeMap -- <br />
+Impelementation explaining .put() .entrySet() .getKey() .getValue() .size(), Iteration using Iterator.
