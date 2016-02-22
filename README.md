@@ -21,3 +21,6 @@ Impelementation explaining .put() .get() .getKey() .getValue() .clone() .clear()
 
 <br />TreeMap -- <br />
 Impelementation explaining .put() .entrySet() .getKey() .getValue() .size(), Iteration using Iterator.
+
+<br />HashSet -- <br />
+Impelementation explaining .add() .clear() .size() and Iteration using Iterator and foreach and contains() method.
