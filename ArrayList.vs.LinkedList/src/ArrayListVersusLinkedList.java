@@ -68,7 +68,7 @@ public class ArrayListVersusLinkedList {
 	    	elapsedTime = stopTime - startTime;
 	    	System.out.println("Got ten thousand Strings in: "+elapsedTime+" ms");
 
-	    	//Getting one million elements to an LinkedList.
+	    	//Getting ten thousand elements to an LinkedList.
 		System.out.println("\n\nGetting elements from our LinkedList...");
 		startTime = System.currentTimeMillis();
 	    	for (int I = 0; I < 10000; I++){
@@ -92,7 +92,7 @@ public class ArrayListVersusLinkedList {
 	    	elapsedTime = stopTime - startTime;
 	    	System.out.println("Removed One thousand Elements in: "+elapsedTime+" ms");
 
-	    	//Removing one million elements to an LinkedList.
+	    	//Removing one thousand elements to an LinkedList.
 		System.out.println("\n\nRemoving one thousand elements from our LinkedList...");
 		startTime = System.currentTimeMillis();
 		for (int I = 0; I < 1000; I++) {
