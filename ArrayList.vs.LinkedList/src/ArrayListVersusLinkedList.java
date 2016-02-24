@@ -32,7 +32,7 @@ public class ArrayListVersusLinkedList {
 		LinkedList linkedlist1 = new LinkedList();
 		
 		/************************** ADDING ELEMENTS ************************************/
-			//Adding one million elements to an ArrayList.
+			//Adding tenthousand elements to an ArrayList.
 		System.out.println("Adding elements to our ArrayList...");
 		long startTime = System.currentTimeMillis();
 	    	for(int I = 1; I <= 10000; I++){
@@ -44,7 +44,7 @@ public class ArrayListVersusLinkedList {
 		System.out.println("First element of the ArrayList is: "+arraylist1.get(0)+" and Last element is: "+arraylist1.get(9999));
 	    	System.out.println("Added ten thousand Strings in: "+elapsedTime+" ms");
 
-	    	//Adding one million elements to an LinkedList.
+	    	//Adding tenthousandn elements to an LinkedList.
 		System.out.println("\n\nAdding elements to our LinkedList...");
 		startTime = System.currentTimeMillis();
 	    	for(int I = 1; I <= 10000; I++){
@@ -57,7 +57,7 @@ public class ArrayListVersusLinkedList {
 	    	System.out.println("Added ten thousand Strings in: "+elapsedTime+" ms");
 
 	    	/************************** GETTING ELEMENTS ************************************/
-			//Getting one million elements to an ArrayList.
+			//Getting ten thousand elements to an ArrayList.
 		System.out.println("\n\nGetting elements from our ArrayList...");
 		startTime = System.currentTimeMillis();
 	    	for(int I = 0; I < 10000; I++){
@@ -68,7 +68,7 @@ public class ArrayListVersusLinkedList {
 	    	elapsedTime = stopTime - startTime;
 	    	System.out.println("Got ten thousand Strings in: "+elapsedTime+" ms");
 
-	    	//Getting one million elements to an LinkedList.
+	    	//Getting ten thousand elements to an LinkedList.
 		System.out.println("\n\nGetting elements from our LinkedList...");
 		startTime = System.currentTimeMillis();
 	    	for (int I = 0; I < 10000; I++){
@@ -92,7 +92,7 @@ public class ArrayListVersusLinkedList {
 	    	elapsedTime = stopTime - startTime;
 	    	System.out.println("Removed One thousand Elements in: "+elapsedTime+" ms");
 
-	    	//Removing one million elements to an LinkedList.
+	    	//Removing one thousand elements to an LinkedList.
 		System.out.println("\n\nRemoving one thousand elements from our LinkedList...");
 		startTime = System.currentTimeMillis();
 		for (int I = 0; I < 1000; I++) {
