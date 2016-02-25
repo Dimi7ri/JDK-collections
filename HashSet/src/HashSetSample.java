@@ -62,7 +62,7 @@ public class HashSetSample {
 			System.out.println(value);
 		}
 		
-			// Using .containts() method.
+			// Using .contains() method.
 		if(hashSet.contains("One")){
 			System.out.println("\nElement named One was found");
 		}
