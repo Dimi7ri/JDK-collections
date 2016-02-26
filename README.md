@@ -27,3 +27,6 @@ Impelementation explaining .add() .clear() .size() contains() methods and iterat
 
 <br />LinkedHashSet -- <br />
 Impelementation explaining .add() .clear() .size() .isEmpy() methods and iteration using Iterator and foreach.
+
+<br />TreeSet -- <br />
+Impelementation explaining .add() .first() .last() .ceiling(e) .floor(e) .pollFirst() .pollLast() .tailSet(e) .subSet(eFrom , eTo) .higher(e) .lower(e) .clear() .contains() methods and iteration using Iterator and foreach.
