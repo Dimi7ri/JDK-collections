@@ -1,6 +1,19 @@
 # JDK-collections
 This repository covers some of the most used collections of the JDK and their features.
 
+| Collection class | Base class | Interfaces | Duplicates | Ordered | Sorted | Thread-safe |
+|:-------------------:|:-------------------------:|:--------------------------:|:----------:|:-------:|:------:|:-----------:|
+| ArrayList<E> | AbstractListAbstractList | List | Yes | Yes | No | No |
+| LinkedList<E> | AbstractSequentialList<E> | List;Deque | Yes | Yes | No | No |
+| Vector<E> | AbstractList<E> | List | Yes | Yes | No | Yes |
+| HashSet<E> | AbstractSet<E> | Set | No | No | No | No |
+| LinkedHashSet<E> | HashSet<E> | Set | No | Yes | No | No |
+| TreeSet<E> | AbstractSet<E> | Set;NavigableSet;SortedSet | No | Yes | Yes | No |
+| HashMap<K, V> | AbstractMap<K, V> | Map | No | No | No | No |
+| LinkedHashMap<K, V> | HashMap<K, V> | Map | No | Yes | No | No |
+| Hashtable<K, V> | Dictionary<K, V> | Map | No | No | No | Yes |
+| TreeMap<K, V> | AbstractMap<K, V> | Map;NavigableMap;SortedMap | No | Yes | Yes | No |
+
 <br />ArrayList -- <br />
 Impelementation explaining .add() .get() .remove() .clear() .size() .next() and iteration using Iterator foreach and for.
 
